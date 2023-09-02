@@ -67,8 +67,14 @@ and (max-device-width: 480px) {
    #entryTxt{
     font-size: 10rem;
    }
+   #nameTxt{
+    visibility: hidden;
+   }
+   #aboutScroll{
+    visibility: hidden;
+   }
    #imageBase{
-    height: 50rem;
+    height: 100vh;
    }
 }
 
