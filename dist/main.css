@@ -946,6 +946,22 @@ input[type=text], select, textarea {
   box-sizing: border-box;
 }
 
+@media screen and (orientation:landscape)
+and (min-device-width: 319px) 
+and (max-device-width: 480px) {
+  #entryTxt{
+    font-size: 10rem;
+  }
+
+  #nameTxt{
+    visibility: hidden;
+  }
+
+  #aboutScroll{
+    visibility: hidden;
+  }
+}
+
 .hover\:bg-custMixBlue:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(69 162 158 / var(--tw-bg-opacity));
@@ -1032,7 +1048,6 @@ input[type=text], select, textarea {
     padding-right: 15rem;
   }
 }
-
 
 
 
