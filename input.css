@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#imageBase {
+    background-image: url("../images/codeblur.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: inset 0 -10px 2px -2px black;
+    height: 100vh;
+}
+
+#entryTxt{
+    font-size: 20rem; 
+    display: inline-block;
+    line-height: 90%;
+    user-select: none;
+    animation: FadeIn 3s;
+    -webkit-animation: FadeIn 3s;
+    -moz-animation: FadeIn 3s;
+    -o-animation: FadeIn 3s;
+    -ms-animation: FadeIn 3s;
+}
+
+#nameTxt {
+    animation: hiddenTxt 3s, FadeIn 3s 1s;
+    -webkit-animation: hiddenTxt 1s, FadeIn 3s 1s;
+    -moz-animation: hiddenTxt 1s, FadeIn 3s 1s;
+    -o-animation: hiddenTxt 1s, FadeIn 3s 1s;
+    -ms-animation: hiddenTxt 1s, FadeIn 3s 1s;
+}
+
+#aboutScroll {
+    animation: hiddenTxt 3s, FadeIn 3s 5s;
+    -webkit-animation: hiddenTxt 3s, FadeIn 3s 2s;
+    -moz-animation: hiddenTxt 3s, FadeIn 3s 2s;
+    -o-animation: hiddenTxt 3s, FadeIn 3s 2s;
+    -ms-animation: hiddenTxt 3s, FadeIn 3s 2s;
+}
+
+@keyframes FadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 2; }
+}
+
+@keyframes hiddenTxt {
+    0% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+input[type=text], select, textarea {
+    padding: 12px; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+  }
+
+
+
+
+
+
