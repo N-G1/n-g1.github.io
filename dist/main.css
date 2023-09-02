@@ -611,6 +611,10 @@ video {
   height: 200px;
 }
 
+.h-\[60rem\] {
+  height: 60rem;
+}
+
 .w-11\/12 {
   width: 91.666667%;
 }
@@ -718,10 +722,6 @@ video {
   padding: 1.5rem;
 }
 
-.p-14 {
-  padding: 3.5rem;
-}
-
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -747,12 +747,16 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.pb-10 {
-  padding-bottom: 2.5rem;
-}
-
 .pb-12 {
   padding-bottom: 3rem;
+}
+
+.pb-28 {
+  padding-bottom: 7rem;
+}
+
+.pb-32 {
+  padding-bottom: 8rem;
 }
 
 .pb-8 {
@@ -769,10 +773,6 @@ video {
 
 .pt-5 {
   padding-top: 1.25rem;
-}
-
-.pb-20 {
-  padding-bottom: 5rem;
 }
 
 .text-center {
@@ -1013,17 +1013,9 @@ input[type=text], select, textarea {
     gap: 4rem;
   }
 
-  .lg\:p-14 {
-    padding: 3.5rem;
-  }
-
   .lg\:px-40 {
     padding-left: 10rem;
     padding-right: 10rem;
-  }
-
-  .lg\:pb-20 {
-    padding-bottom: 5rem;
   }
 }
 
@@ -1036,23 +1028,13 @@ input[type=text], select, textarea {
     width: 300px;
   }
 
-  .xl\:p-14 {
-    padding: 3.5rem;
-  }
-
   .xl\:px-60 {
     padding-left: 15rem;
     padding-right: 15rem;
   }
-
-  .xl\:pb-28 {
-    padding-bottom: 7rem;
-  }
-
-  .xl\:pb-32 {
-    padding-bottom: 8rem;
-  }
 }
+
+
 
 
 
