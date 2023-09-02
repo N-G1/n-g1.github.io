@@ -888,7 +888,6 @@ body {
   background-position: center center;
   background-size: cover;
   box-shadow: inset 0 -10px 2px -2px black;
-  height: 100vh;
 }
 
 #entryTxt{
@@ -1033,7 +1032,6 @@ input[type=text], select, textarea {
     padding-right: 15rem;
   }
 }
-
 
 
 
