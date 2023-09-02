@@ -952,14 +952,6 @@ and (max-device-width: 480px) {
   #entryTxt{
     font-size: 10rem;
   }
-
-  #nameTxt{
-    visibility: hidden;
-  }
-
-  #aboutScroll{
-    visibility: hidden;
-  }
 }
 
 .hover\:bg-custMixBlue:hover {
