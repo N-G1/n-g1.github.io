@@ -1036,10 +1036,6 @@ and (max-device-width: 480px) {
     padding-left: 10rem;
     padding-right: 10rem;
   }
-
-  .lg\:pb-4 {
-    padding-bottom: 1rem;
-  }
 }
 
 @media (min-width: 1440px) {
@@ -1054,10 +1050,6 @@ and (max-device-width: 480px) {
   .xl\:px-60 {
     padding-left: 15rem;
     padding-right: 15rem;
-  }
-
-  .xl\:pb-4 {
-    padding-bottom: 1rem;
   }
 }
 
